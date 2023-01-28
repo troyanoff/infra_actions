@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '[::1]',
     'testserver',
+    '62.84.115.4',
 ]
 
 INTERNAL_IPS = [
