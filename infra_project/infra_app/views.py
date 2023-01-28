@@ -2,9 +2,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    value = 1234 * 4321 / 54321
-    return HttpResponse(f'У меня получилось! {value}')
+    return HttpResponse('У меня получилось!')
 
 
 def second_page(request):
-    return HttpResponse('А это вторая страница')
+    return HttpResponse('А это вторая страница!')
